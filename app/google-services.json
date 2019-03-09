@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "881216465639",
+    "firebase_url": "https://infomedhack.firebaseio.com",
+    "project_id": "infomedhack",
+    "storage_bucket": "infomedhack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881216465639:android:859de341e1a9425f",
+        "android_client_info": {
+          "package_name": "com.example.akash.maps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881216465639-84vdd58ltn1kclnlfkphrlrhdmg03dq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlJXDNSLgGC4GBFRtDP_VXvxEjsaTokjw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
