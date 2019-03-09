@@ -14,7 +14,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@mipmap/hospitals"
+        android:background="@drawable/hospital"
         android:text="NEArby hospitals"
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:textSize="20sp"
@@ -23,16 +23,16 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.053" />
 
     <Button
         android:id="@+id/bu4"
         android:layout_width="180dp"
         android:layout_height="240dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="264dp"
+        android:layout_marginTop="392dp"
         android:layout_marginEnd="8dp"
-        android:background="@mipmap/spe"
+        android:background="@drawable/specialist"
         android:text="Specialists"
         android:textSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,14 +45,28 @@
         android:layout_width="190dp"
         android:layout_height="239dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="264dp"
+        android:layout_marginTop="384dp"
         android:layout_marginEnd="8dp"
-        android:background="@mipmap/capsules"
+        android:background="@drawable/medicine"
         android:text="alternative medicines"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="146dp"
+        android:layout_height="229dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/booking"
+        android:text="Booking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.381"
+        app:layout_constraintStart_toEndOf="@+id/bu1"
         app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
